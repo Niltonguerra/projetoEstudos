@@ -1,2 +1,2 @@
 # projetoEstudos
- estudos sobre laravel
+ estudos laravel
