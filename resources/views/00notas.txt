@@ -1,0 +1,21 @@
+comandos do prompt.
+
+
+
+cria um projeto laravel como o nome: 'projetoEstudos':
+composer create-project --prefer-dist laravel/laravel projetoEstudos
+
+instala o bootstrap:
+npm i bootstrap@5.3.0
+
+Cria um controller de nome: 'EventController':
+php artisan make:controller EventController
+
+liga o laravel:
+php artisan serve
+
+conecta o php com o mysql:
+php artisan migrate
+
+cria uma migrate(uma tabela no mysql):
+php artisan make:migration create_products_table

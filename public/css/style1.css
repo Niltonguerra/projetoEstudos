@@ -1,0 +1,34 @@
+/* Aula 06 */
+.euAmoVc{
+    color: crimson;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+.botao__euAmoVc{
+    color: crimson;
+    font-size: 30px;
+    font-family: Helvetica;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.img_aula06{
+    display: none;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -35px;
+
+}
+
+.btn_mostra_some{
+    font-size: 30px;
+    font-family: Helvetica;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
