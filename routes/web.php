@@ -18,6 +18,11 @@ use App\Http\Controllers\EventController;
 
 Route::get('/aula08', [EventController::class, 'aula08']);
 
+//create
+Route::get('/aula15', [EventController::class, 'aula15']);
+
+//botão do formulário!
+Route::post('/aulas',[EventController::class,'store']);
 
 Route::get('/events/create', [EventController::class, 'create']);
 

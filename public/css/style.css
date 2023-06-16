@@ -16,6 +16,17 @@ body {
     font-size: 14px;
   }
 
+.msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+
   /* Barra de navegação */
   header, .navbar {
     background-color: #353D41;
@@ -50,3 +61,21 @@ body {
   .nav-item.active {
     border-bottom: 3px solid #FFF;
   }
+
+/*event create page*/
+#event-create-container {
+  padding: 30px;
+}
+
+#event-create-container label {
+  font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 12px;
+}
+
+
+/*  */

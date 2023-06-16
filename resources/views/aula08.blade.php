@@ -10,6 +10,14 @@
 
 
 
+
+
+@foreach ($events as $event)
+    <p>{{$event->title}} -- {{$event->description}}</p>
+@endforeach
+
+
+
 <p> &nbsp I <br>❤️<br> &nbsp U</p>
 
 
@@ -23,6 +31,8 @@
     } else {
         echo "A variável não foi definida";
     }
+
+
     @endphp
 
 @endsection

@@ -64,9 +64,17 @@
                 </div>
               </nav>
           </header>
-<br><br><br><br>
+<main>
+    <div class="container-fluid">
+        <div class="row">
+        @if (session('msg'))
+            <p class="msg">{{session('msg') }}</p>
+        @endif
+    </div>
         @yield('content')
 
+    </div>
+</main>
 
 
 

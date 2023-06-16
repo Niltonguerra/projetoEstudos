@@ -1,7 +1,6 @@
 comandos do prompt.
 
 
-
 cria um projeto laravel como o nome: 'projetoEstudos':
 composer create-project --prefer-dist laravel/laravel projetoEstudos
 
@@ -14,8 +13,37 @@ php artisan make:controller EventController
 liga o laravel:
 php artisan serve
 
+
+para apontar o banco para o laravel é necessario ir no arquivo .env e
+configura-lo, no xampp é só mudar o nome no database.
+
 conecta o php com o mysql:
 php artisan migrate
 
-cria uma migrate(uma tabela no mysql):
+cria uma migrate de criação(uma tabela no mysql):
 php artisan make:migration create_products_table
+
+cria uma migration de edição:
+php artisan make:migration add_image_to_events_table
+
+executa a migrate:
+php artisan migrate
+
+mostra os status das migrates:
+php artisan migrate:status
+
+remove todas as tabelas e inseri de novo:
+php artisan migrate:fresh   ---URGENTE!!! esse comando apaga todos os dados da tabela!
+
+volta uma atualização, volta um comando:
+php artisan migrate:rollback     ---URGENTE!!! esse comando apaga todos os dados da tabela!
+
+Apaga todas as ações das migrates:
+php artisan migrate:reset      ---URGENTE!!! esse comando apaga todos os dados da tabela!
+
+faz o roolback e o migrate:
+php artisan migrate:refresh      ---URGENTE!!! esse comando apaga todos os dados da tabela!
+
+
+cria um model(model são usados para fazer os comandos em php, exemplo: select,insert,delete e etc)
+php artisan make:model Event
